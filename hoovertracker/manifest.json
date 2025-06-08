@@ -1,0 +1,28 @@
+
+{
+  "short_name": "Hoover Tracker",
+  "name": "Hoover Tracker & Narcissist Pattern Decoder",
+  "description": "An application to help users track hoover attempts, decode bodily symptoms related to narcissistic abuse, maintain a journal, and understand narcissistic patterns to reclaim their power.",
+  "icons": [
+    {
+      "src": "favicon.ico", // You'll need to create/provide this icon
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png", // You'll need to create/provide this icon
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png", // You'll need to create/provide this icon
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f97316",
+  "background_color": "#0f172a"
+}
+    

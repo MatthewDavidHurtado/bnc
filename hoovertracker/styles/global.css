@@ -1,0 +1,12 @@
+
+/* Tailwind base, components, and utilities are loaded via CDN in index.html */
+/* This file can be used for very minimal global overrides if absolutely necessary, */
+/* but the goal is to use Tailwind classes for everything. */
+
+/* Example: ensure html and body take full height */
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+/* This is often handled by Tailwind's preflight or can be added to body class in index.html */
