@@ -39,6 +39,18 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         {children}
       </main>
 
+      {/* Terms of Use / Disclaimer Link */}
+      <div className="text-center py-4 mb-16 sm:mb-0">
+        <a 
+          href="https://endtoxiclove.com/tools-page" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-xs text-slate-400 hover:text-orange-400 transition-colors duration-200"
+        >
+          Terms of Use / Disclaimer
+        </a>
+      </div>
+
       <nav className="fixed bottom-0 left-0 right-0 bg-slate-800 border-t border-slate-700 shadow-lg z-50">
         <div className="container mx-auto flex justify-around items-center h-16 px-2">
           <NavItem to="/" icon={<HomeIcon className="w-6 h-6" />} label="Home" />
